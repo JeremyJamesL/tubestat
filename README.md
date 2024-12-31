@@ -2,17 +2,17 @@
 
 Get the status of the London tube from the command line.
 
-Check which lines are down or delayed without having to go to TFL's website
+Check which lines are down or delayed without having to go to TFL's website.
 
-## Installation
+## Installation
 
-Globally
+### Globally
 
 ```console
 npm install tubestat
 ```
 
-Just to run once
+### Just to run once
 
 ```console
 npx tubestat
@@ -20,26 +20,35 @@ npx tubestat
 
 ## Usage
 
-Status of all lines
+### Status of all lines
 
 ```console
 tubestat
 ```
 
-Status of one line
+### Status of one line
 
 ```console
 tubestat --line bakerloo
 ```
 
-Status of multiple lines
+### Status of multiple lines
 
 ```console
 tubestat --line bakerloo,victoria
 ```
 
-Detailed view.
+### Available line values:
 
-```console
-tubestat -D --l  bakerloo
-```
+- bakerloo
+- central
+- circle
+- district
+- hammersmith-city
+- jubilee
+- metropolitan
+- northern
+- piccadilly
+- victoria
+- waterloo-city
+- dlr
